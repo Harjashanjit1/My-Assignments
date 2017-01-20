@@ -1,0 +1,25 @@
+const myVal= process.argv
+
+let Arr = Number(myVal[2])+Number(myVal[4])
+if(Arr<=10)
+{
+console.log(`Sum is smaller than 10, which = ${Arr}`)
+}
+else
+{
+if(Arr<=100)
+{
+console.log(`Sum is larger than 10 and smaller than 100, which = ${Arr}`)
+}
+else
+{
+if(Arr<=1000)
+{
+console.log(`Sum is larger than 100 but smaller than 1000, which = ${Arr}`)
+}
+else
+{
+console.log(`Sum >1000 ${Arr}`)
+}}}
+
+
