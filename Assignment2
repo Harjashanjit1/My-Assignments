@@ -1,0 +1,5 @@
+const myVal= process.argv
+let Arr = []
+console.log(myVal[2])
+Arr.push(Number(myVal[2])+Number(myVal[3]))
+console.log(Arr)
