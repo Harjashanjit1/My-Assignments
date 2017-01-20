@@ -1,0 +1,9 @@
+let Arr = []
+Arr.push(2)
+Arr.push(`this item is added at the end of the array`)
+console.log(Arr)
+Arr.unshift(`this item is added at the start of the array`)
+Arr.push(`this item is also added at the end of the array`)
+Arr.shift()
+Arr.pop()
+console.log(Arr)
