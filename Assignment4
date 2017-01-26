@@ -1,4 +1,4 @@
-console.log(`This is a tip calculator program, use this program you have to enter the "meal cost" and "tip percentage" respectively while lauching the program from terminal`)
+
 const myVal = process.argv
 let mealCost = Number(myVal[2])
 let tipPercent = Number(myVal[3])
